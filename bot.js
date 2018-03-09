@@ -49,18 +49,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'mig!help') {
-    	message.reply('mig!info 
-mig!tag
-mig!creator
-mig!hosters 
-mig!discord 
-mig!apply 
-mig!ip 
-mig!ranks 
-mig!store 
-mig!website 
-mig!ping
-mig!bing');
+    	message.reply('mig!info mig!tag mig!creator mig!hosters mig!discord mig!apply mig!ip mig!ranks mig!store mig!website mig!ping mig!bing');
   	}
 });
 
